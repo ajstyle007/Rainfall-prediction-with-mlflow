@@ -12,3 +12,10 @@ The goal is to build an accurate model that forecasts rainfall based on meteorol
 - Hyperparameter Tuning: Optimizing models for better performance.
 - Experiment Tracking: Using MLflow and DagsHub to log metrics, parameters, and artifacts.
 - Deployment: Deploying the trained model using Streamlit.
+
+### Tech Stack
+
+- Programming Language: Python
+- Libraries: Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn, XGBoost
+- Experiment Tracking: MLflow, DagsHub
+- Deployment: Streamlit 
