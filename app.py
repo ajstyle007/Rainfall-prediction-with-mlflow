@@ -2,6 +2,8 @@ import streamlit as st
 import numpy as np
 import pandas as pd
 import pickle
+import mlflow
+import dagshub
 
 # Load trained model
 pipe = pickle.load(open("model.pkl", "rb"))
@@ -102,8 +104,8 @@ with tab2:
             st.markdown("<div style='color: cyan; text-align: center;'>The model predicts no rainfall based on the input parameters.</div>", unsafe_allow_html=True)
 
 with tab3:
-    import mlflow
-    import dagshub
+
+    dagshub.auth.add_app_token("59e05d02bd7485a2152aec154bdfd08c78b6cf48")
     dagshub.init(repo_owner='ajstyle007', repo_name='my-first-repo', mlflow=True)
 
 
