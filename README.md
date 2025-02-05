@@ -7,7 +7,13 @@ The goal is to build an accurate model that forecasts rainfall based on meteorol
 
 ![rain_overview](https://github.com/user-attachments/assets/b4aa685c-96e3-45d0-878b-f369c4199a2a)
 
+
+- This application utilizes machine learning to predict rainfall based on historical weather data and meteorological parameters. By analyzing patterns in temperature, humidity, and atmospheric conditions, it provides accurate forecasts to aid in water resource management and disaster preparedness.
+
 ![rain_predict](https://github.com/user-attachments/assets/d685f46a-2a82-4ae7-8669-386afcb79194)
+
+
+- This Rainfall Prediction App uses machine learning to forecast rainfall based on historical weather data. You can also track experiment progress and model performance by clicking the 'Go to MLflow' button, where key metrics and logs are available for analysis.
 
 ![rain_mlflow](https://github.com/user-attachments/assets/80167d43-f63e-447c-a064-6fff29fd6ddb)
 
